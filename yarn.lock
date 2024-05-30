@@ -1073,6 +1073,17 @@
     "@uniswap/v3-core" "^1.0.0"
     base64-sol "1.0.1"
 
+"@votopia/v3-periphery@^1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@votopia/v3-periphery/-/v3-periphery-1.4.4.tgz#86e8073785bcb3132369f6e1ed9d77b192afbc3d"
+  integrity sha512-I9Lqx/jWP9YsyQA6aupfLHpD7b75kkZO07lbeTiU2+UeoW1IAftkgIcNhSd9Hu2s/7jIwIq9jnXG/u8UcBbMOg==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/lib" "^4.0.1-alpha"
+    "@uniswap/v2-core" "^1.0.1"
+    "@uniswap/v3-core" "^1.0.0"
+    base64-sol "1.0.1"
+
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
