@@ -14,7 +14,7 @@ import { constants } from 'ethers'
 import {
   abi as NFT_POSITION_MANAGER_ABI,
   bytecode as NFT_POSITION_MANAGER_BYTECODE,
-} from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
+} from '@votopia/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 
 const wethFixture: Fixture<{ weth9: IWETH9 }> = async ([wallet]) => {
   const weth9 = (await waffle.deployContract(wallet, {
